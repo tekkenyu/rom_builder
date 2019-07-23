@@ -1,18 +1,16 @@
 #!/bin/bash
 
-GITHUB_USER=Akianonymus
-GITHUB_EMAIL=anonymus.aki@gmail.com
+GITHUB_USER=abhinavgupta371
+GITHUB_EMAIL=abhinavgupta371@gmail.com
 
-KBUILD_BUILD_USER="Aki"
-KBUILD_BUILD_HOST="A_DEAD_PLANET"
+KBUILD_BUILD_USER="abhinavgupta371"
+KBUILD_BUILD_HOST="agrd1129"
 
-device=harpia
+ROM="AospExtended"
+manifest_url="https://github.com/AospExtended/manifest"
+export rom_vendor_name="aosp" # This represent the nams used by different rom vendors, Ex - aosp_tissot-userdebug, aosp is vendor name.
+branch="9.x"
 
-ROM="PixelExperience"
-manifest_url="https://github.com/PixelExperience/manifest"
-rom_vendor_name="aosp" # This represent the nams used by different rom vendors, Ex - aosp_harpia-userdebug, aosp is vendor name.
-branch="pie"
-
-release_repo="Akianonymus/harpia_builds"
+release_repo="abhinavgupta371/tissot_builds"
 
 timezone="Asia/Kolkata"
